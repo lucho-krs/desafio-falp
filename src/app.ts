@@ -1,2 +1,12 @@
-console.log('Hola mundoo ');
-console.log('Hola mundoo ');
+import 'dotenv/config'
+import Server from './models/server';
+
+(async()=> {
+  main();
+})();
+
+
+function main() {
+  const server = new Server();
+  server.listen();
+}

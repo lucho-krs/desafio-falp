@@ -10,6 +10,6 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
-    container_name: teslodb
+    container_name: falpdb
     volumes:
       - ./postgres:/var/lib/postgresql/data 
